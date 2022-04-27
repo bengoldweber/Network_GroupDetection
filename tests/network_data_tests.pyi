@@ -1,3 +1,4 @@
 import pytest
 
-def test_
+def test_generate_folder_network_tables(6,100):
+
