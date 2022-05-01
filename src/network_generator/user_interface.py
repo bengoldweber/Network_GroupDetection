@@ -1,5 +1,5 @@
 """ User interfacing command and control functions for the network generator """
-# network_generator as ng
+import network_generator as ng
 # Start command prompt, ask user what step to run
 import sys
 
@@ -14,7 +14,9 @@ def user_input():
 			                          "3 - Exit program\n"
 			                          ">>> "))
 			if run_selection == 1:
-				print("hello\n")
+				print("Generating Graph\n")
+				ng.generate_graph()
+				print("Done with Graph Generation. Back to main menu\n")
 			elif run_selection == 2:
 				print("also hello\n")
 			elif run_selection == 3:
