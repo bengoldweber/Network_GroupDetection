@@ -7,8 +7,6 @@ import numpy as np
 import src.network_generator.network_generator as ng
 
 
-
-
 class TestClass:
     def test_drop_nas_df(self):
         df = pd.DataFrame({
